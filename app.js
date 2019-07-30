@@ -1,4 +1,5 @@
-// Ejecuctar: node app --base=3
+// Ejecuctar: node app crear --base=3 --limite=5
+// Ejecuctar: node app listar --base=3 --limite=5
 const argv = require('./config/yargs').argv;
 const colors = require('colors/safe');
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar');
